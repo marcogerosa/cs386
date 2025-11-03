@@ -30,7 +30,7 @@ if __name__ == "__main__":
     b2 = B2()
     
     a.change_b(b2)
-    a.do_something()  # Prints: B
+    a.do_something()
     
     a.change_b(b1)
-    a.do_something()  # Prints: A
+    a.do_something()
